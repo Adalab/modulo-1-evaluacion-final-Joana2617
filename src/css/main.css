@@ -9,50 +9,37 @@
     font-size: 16px;
 }
 
-.Mobile {
-    width: 414px;
-    height: 3030px;
-    flex-grow: 0;
-  }
 
-.Elegante-logotipo-con-hoja-3 {
-    width: 213px;
+
+.Elegante-logotipo-con-hoja-3 {    
     height: 96px;
-    margin: 0 101px 62px 43px;
-  }
+    margin: 0 auto 2rem auto;
+  }z
 
   .Disfruta-creando-espacios {
-    width: 414px;
-    height: 38px;
-    margin: 62px 40px;
-    font-family: Poppins;
-    font-size: 24px;
+    margin: 2rem 1rem;
+    font-size: 1.5rem;
     font-weight: 600;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
     text-align: center;
     color: #0c474b;
   }
 
 .Rectangle-17 {
-    width: 414px;
-    height: 389px;
-    padding: 19px 0 64px;
     background-image: url("../img/header.jpg"); 
-    background-size: 170% 100%;
+    background-size: cover;
     background-position: center;
 }
 
 .Logotipo-burger{
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
 }
 
 img.menu-hamburger {
     width: 24px;
     height: 24px;
-    margin: 36px 43px 98px 33px;
     object-fit: contain;
   }
 
@@ -61,26 +48,17 @@ img.menu-hamburger {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: 10px;
-    margin: 62px 119px 0 115px;
+    margin: 62rem auto;
     padding: 12px 24px;
     background-color: #0c474b;
-    flex-grow: 0;
-    font-family: Poppins;
-    font-size: 16px;
-    font-weight: 500;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
-    text-align: center;
+    font-size: 1rem;
     color: #fff;
     border: none;
+    cursor: pointer;
   }
   
-.Frame-19 button:hover{
+.Frame-19:hover{
     background-color: burlywood;
-    color: #0c474b;
 }
 
 .main{
@@ -88,61 +66,59 @@ img.menu-hamburger {
     color: #0C474B;
 }
 
+.title{
+    font-weight: 600;
+    text-align: center;
+    margin: 2rem 1rem;
+}
+
 .container{
     display: grid;
     grid-template-rows: repeat(3, 1fr);
     justify-content: center;
-    align-items: center;
 }
 
 .box1{
     text-align: center;
-    justify-self: center;
-    align-self: center;
+
 }
 
 .box2{
     text-align: center;
-    justify-self: center;
-    align-self: center;
+    
 }
 
 .box3{
     text-align: center;
-    justify-self: center;
-    align-self: center;
+   
 }
 
 .espacio-img{
     width: 100%;
-    display: flex;
+    display: block;
 }
 
 .van{
     background-color: #ff975a;
     color: white;
-    display: grid;
-    justify-content: center;
-    align-items: center;
-    padding: 5px 0 10px;
+    text-align: center;
+    padding: 2rem 1rem;
 }
 
 .van-image{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-    padding: 40px 0px 0px 50px;
+    margin-bottom: 1rem;
+    max-width: 100%;
 }
 
 .text4{
-    font-size: 12px;
+    font-size: 0.875rem;
     background-color: #F0EBE5;
     color: #0C474B;
     text-align: center;
+    padding: 2rem 1rem;
     width: 100%;
     max-width: 600px;
-    box-sizing: border-box;
+    margin: 0 auto;
 }
 
 .text4 button:hover{
@@ -153,26 +129,22 @@ img.menu-hamburger {
     background-color: #0c474b;
     color:  #b6c8c9;
     display: flex;
-    justify-content: center;
-    align-items: center;  
-    gap: 40px;
+    justify-content: center; 
     flex-wrap: wrap;
-    padding: 20px 0;
+    gap: 2rem;
+    padding: 2rem 1rem;
     width: 100%;
 }
 
 .footer-list{
-    font-size: 20px;
-    gap: 40px;
-    display: flex;
-    flex-wrap: wrap;
-    padding: 20px 0;
+    font-size: 1.5rem;
+    padding: 1rem 0;
     
 }
 
 .list{
     list-style: none;
-    font-size: 14px;
+    font-size: 0.875rem;
     
 }
 
@@ -187,5 +159,6 @@ a{
     gap: 10px;
     justify-content: center;
     flex-wrap: wrap;
-    padding: 20px 0;
+    padding: 1.5rem 0;
 }
+
